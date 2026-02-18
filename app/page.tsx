@@ -30,7 +30,7 @@ export default function Home() {
       </p>
 
       <button className="px-6 py-3 bg-green-500 text-white rounded-lg shadow">
-        出勤中
+        出勤
       </button>
 
       <button className="px-6 py-3 bg-red-500 text-white rounded-lg shadow">
