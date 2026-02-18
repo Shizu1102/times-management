@@ -13,12 +13,13 @@ export default function Home() {
       setTime(`${hours}:${minutes}`);
     };
 
-    updateClock(); // 最初に表示
+    updateClock(); // 最初に表示する
     const interval = setInterval(updateClock, 60000); // 1分ごと更新
 
     return () => clearInterval(interval);
   }, []);
 
+  
   return (
     <div className="flex flex-col items-center gap-6 mt-20">
       <h1 className="text-3xl font-bold">時間管理アプリ</h1>
