@@ -19,7 +19,7 @@ export default function Home() {
     return () => clearInterval(interval);
   }, []);
 
-  
+
   return (
     <div className="flex flex-col items-center gap-6 mt-20">
       <h1 className="text-3xl font-bold">時間管理アプリ</h1>
@@ -30,7 +30,7 @@ export default function Home() {
       </p>
 
       <button className="px-6 py-3 bg-green-500 text-white rounded-lg shadow">
-        出勤
+        出勤中
       </button>
 
       <button className="px-6 py-3 bg-red-500 text-white rounded-lg shadow">
